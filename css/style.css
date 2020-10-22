@@ -1,0 +1,525 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@300;400;700&display=swap");
+
+/* Ultilities */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+overflow: scroll;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none !important;
+}
+
+ul{
+    margin: 0 !important;
+}
+
+textarea:focus,
+input:focus {
+    outline: none !important;
+    background: transparent !important;
+}
+
+.rounded {
+    border-radius: 25px !important;
+    padding: 10px 25px;
+}
+
+.circle{
+    border-radius: 50% !important;
+    border: 5px solid #f8f8f8;
+    margin: 20px;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+img.rounded{
+    border-radius: 25px !important;
+}
+
+.line-through {
+    text-decoration: line-through !important;
+    color: #2a2b2d !important;
+}
+
+.btn-outline-purple {
+    border: 2px solid #9480f0 !important;
+    text-decoration: none;
+    color: #9480f0;
+}
+
+.btn-outline-purple:hover {
+    color: #fff !important;
+    text-decoration: none;
+    background: #9480f0;
+}
+
+.btn-outline-light:hover {
+    background: #fff !important;
+    text-decoration: none;
+    color: #9480f0;
+}
+
+.btn-outline-dark:hover {
+    color: #fff !important;
+    text-decoration: none;
+    background-color: #9480f0;
+    border-color: #9480f0;
+}
+
+/* Nav */
+
+.navbar {
+    padding: 25px 0px !important;
+    height: auto;
+    background: #584ed1 !important;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.nav-list li a {
+    color: rgba(255, 255, 255, 0.6) !important;
+    font-weight: 300;
+}
+
+.nav-list li a.active {
+    color: rgba(255, 255, 255, 1) !important;
+}
+
+.nav-list li a:hover {
+    color: rgba(255, 255, 255, 1) !important;
+}
+
+.nav-icons a {
+    background-color:  #9480f0;;
+    color: #fff;
+    border-radius: 50%;
+    padding: 5px 7px;
+    font-size: 11px;
+    height: auto;
+}
+
+.side-header {
+    background: url("/img/home-bg-01.jpg");
+    height: 100vh;
+}
+
+.btn .fas {
+    font-size: 11px !important;
+}
+
+#hero{
+    background: url('https://i.postimg.cc/8k2rPZ5k/header-bg.jpg');
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    overflow: hidden;
+}
+
+.hero-content{
+    margin-top: 15%;
+    color: #fff !important;
+}
+
+.hero-content h2,.hero-content p{
+    color: #fff !important;
+}
+
+.hero-content img{
+    margin-bottom: 4.2rem;
+    margin-top: 5rem;
+}
+
+.hero-content h2,
+#features h2,
+#drone-descrption h2,
+#accessories h2,
+#deal h2,
+#gallary h2,
+#reviews h2 {
+    font-size: 60px;
+    margin-bottom: 1rem;
+    font-weight: 700;
+    font-family: "Montserrat";
+    color: #2a2b2d;
+}
+
+.hero-content p,
+#features p,
+#drone-descrption p,
+#accessories p,
+#deal p,
+#gallary p,
+#contact p {
+    line-height: 2;
+    font-weight: 400;
+    color: #9b9b9e;
+    font-size: 15px;
+    font-family: "Open Sans";
+    margin-top: 1.5rem;
+}
+
+.hero-content .btn {
+    margin-top: 1rem;
+}
+
+#features{
+    background: url("/img/blur-home-11-1177x692.png")no-repeat center/cover;
+    height: 100vh;
+}
+
+#drone-descrption {
+    /* height: 100vh; */
+    width: 100%;
+}
+
+.drone-info {
+    align-self: center;
+}
+
+#drone-descrption p {
+    color: #9b9b9e !important;
+}
+
+#accessories {
+    background: url("/img/blur-home-05-1043x605.png") no-repeat left;
+    background-position: -500px 70px;
+    background-size: 75%;
+}
+
+#accessories .container {
+    max-width: 1200px !important;
+}
+
+.product {
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    vertical-align: middle;
+}
+
+.product-title li {
+    font-weight: 700 !important;
+    font-size: 17px !important;
+    font-family: "Open Sans" !important;
+    margin-bottom: 1rem;
+}
+
+.product-descrption li {
+    font-size: 17px !important;
+    font-family: "Open Sans" !important;
+    margin-bottom: 1rem;
+}
+
+.product img {
+    margin-top: 2rem;
+}
+
+.product .product-info {
+    height: 100px;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin-top: 3rem;
+    vertical-align: bottom;
+}
+
+.product-info a {
+    vertical-align: middle;
+}
+
+.accessory-price {
+    color: #9480f0 !important;
+}
+
+#accessories a {
+    color: #2a2b2d;
+    transition: color 0.3s ease-in-out;
+}
+
+#accessories a:hover {
+    color: #9480f0 !important;
+    text-decoration: none;
+}
+
+#gallary{
+    background: url("https://i.postimg.cc/44Sm2Btb/blur-home-05-1043x605.png") no-repeat right center;
+    background-size: 75%;
+    object-fit: cover;
+}
+
+#gallary img {
+    height: 250px;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+#newsletter {
+    background: url("https://i.postimg.cc/BQ5tZskN/review-bg.jpg") no-repeat top/cover;
+    color: #fff;
+    z-index: -1;
+}
+
+.newsletter-input {
+    background: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+    position: relative;
+    z-index: 1;
+    outline: none;
+}
+
+.newsletter-btn {
+    border-radius: 50%;
+    padding: 11px 20px;
+    position: absolute;
+    right: 15px;
+    z-index: 10;
+}
+
+#newsletter p {
+    margin: 0 !important;
+}
+
+.newsletter-input::placeholder {
+    color: #fff;
+}
+
+#reviews {
+    position: relative;
+    background: url("https://i.postimg.cc/BQ5tZskN/review-bg.jpg") no-repeat center/cover;
+    background-color: #f8f8f8;
+    height: 100vh;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.reviews {
+    background: url("/img/home-bg-03.jpg") no-repeat center/cover;
+    height: 75vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#reviews h2{
+    color: #fff;
+}
+
+.reviews-img {
+    height: 170px !important;
+    width: 170px !important;
+    border-radius: 45%;
+    align-self: center;
+    position: absolute;
+    right: 40px;
+    border: 3px solid #9480f0;
+}
+
+#testimonal-info {
+    width: 1000px;
+}
+
+.btn-light {
+    background: #fff !important;
+}
+
+
+.test-btn {
+    z-index: 10;
+    position: absolute;
+    top: 50%;
+    border-radius: 50%;
+    padding: 15px !important;
+    width: 60px;
+    height: 60px;
+    align-self: center;
+}
+
+.test-btn .fas {
+    font-size: 16px !important;
+    vertical-align: bottom;
+}
+
+.next {
+    right: 15px;
+}
+
+#deal,
+#contact {
+    background: #f9f9f9;
+}
+
+#deal .percent {
+    color: #9480f0;
+    margin-top: 3rem;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+#deal p{
+    color: #ababab;
+}
+
+#deal .limited-time {
+    margin-bottom: 3rem;
+    margin-top: 0.2rem;
+}
+
+#contact{
+    background: url("https://i.postimg.cc/tJxyMtQ2/form-bg.jpg") no-repeat center/cover;
+    color: #fff;
+}
+
+#contact .container {
+    max-width: 1300px !important;
+}
+
+.contact-icon i {
+    background: #9480f0;
+    border: 1px solid #9480f0;
+    color: #fff;
+    border-radius: 50%;
+    padding: 10px;
+    font-size: 20px !important;
+}
+
+#contact h3 {
+    font-size: 40px;
+}
+
+#contact h5 {
+    color: #fff;
+    margin-bottom: 0.5rem;
+}
+
+#contact p {
+    margin-top: 2rem;
+    font-size: 17px;
+    line-height: 1.76471;
+    letter-spacing: .043rem;
+    font-family: 'Open Sans';
+    color: rgba(255, 255, 255, 0.8);
+}
+
+#contact form {
+    margin-top: 3rem;
+}
+
+#contact form input,
+#contact form textarea {
+    border: 3px solid #9480f0;
+    background: transparent;
+}
+
+#contact form input::placeholder,
+#contact form textarea::placeholder{
+    color: #fff;
+}
+
+.info {
+    margin-top: 1.5rem;
+}
+
+.contact-info a {
+    color: rgba(255,255,255,0.7)!important;
+}
+
+.deal-description {
+    width: 900px;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 100%;
+    padding: 5rem;
+    background: #fff;
+}
+
+#main-footer li a{
+    color: #000 !important;
+}
+
+#main-footer li a:hover{
+    color: rgba(0,0,0,0.6) !important;
+}
+
+#main-drone{
+    position: relative;
+    animation: mymove;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    transition: ease-in-out;
+}
+
+@keyframes mymove {
+    0% {top: 0px;}
+    50% {top: 50px;}
+    100% {top: 0px;}
+  }
+
+@media only screen and (max-width: 767px) { 
+    #hero,
+    #features,
+    #drone-descrption,
+    #accessories,
+    #newsletter,
+    #deal,
+    #gallary,
+    #reviews,
+    #contact,
+    #main-footer {
+        height: 100% !important;
+    }
+
+.hero-content h2,
+#features h2,
+#drone-descrption h2,
+#accessories h2,
+#deal h2,
+#gallary h2,
+#reviews h2 {
+    font-size: 40px !important;
+}
+
+#drone-descrption{
+    text-align: center;
+}
+
+#features{
+    background: none !important;
+}
+
+.product img, .accessory-price,.product .product-info{
+    margin: 0 !important;
+}
+
+#deal{
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+}
+
+.deal-description{
+        padding: 0 !important;
+    }
+
+    #contact{
+        text-align: center;
+    }
+
+    #contact .btn{
+        text-align: center;
+        margin: none;
+        display: block !important;
+        margin: 0 auto;
+    }
+}
