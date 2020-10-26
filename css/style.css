@@ -107,11 +107,6 @@ img.rounded{
     height: auto;
 }
 
-.side-header {
-    background: url("/img/home-bg-01.jpg");
-    height: 100vh;
-}
-
 .btn .fas {
     font-size: 11px !important;
 }
@@ -302,14 +297,6 @@ img.rounded{
     position: relative;
     justify-content: center;
     align-items: center;
-}
-
-.reviews {
-    background: url("/img/home-bg-03.jpg") no-repeat center/cover;
-    height: 75vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 #reviews h2{
