@@ -172,7 +172,7 @@ img.rounded{
 }
 
 #features{
-    background: url("/img/blur-home-11-1177x692.png")no-repeat center/cover;
+    background: url("https://i.postimg.cc/XYVPtZMF/blur-home-11-1177x692.png")no-repeat center/cover;
     height: 100vh;
 }
 
@@ -190,7 +190,7 @@ img.rounded{
 }
 
 #accessories {
-    background: url("/img/blur-home-05-1043x605.png") no-repeat left;
+    background: url("https://i.postimg.cc/X76mcHQs/blur-home-05-1043x605.png") no-repeat left;
     background-position: -500px 70px;
     background-size: 75%;
 }
